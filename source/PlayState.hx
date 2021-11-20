@@ -1016,6 +1016,11 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
+				
+				case 'crab-game':
+					{
+						videoIntro('bnonsense but wacky');
+					}
 
 				default:
 					startCountdown();
@@ -1038,8 +1043,7 @@ class PlayState extends MusicBeatState
 		
 		
 		callOnLuas('onCreatePost', []);
-		
-		
+			
 		super.create();
 	}
 
