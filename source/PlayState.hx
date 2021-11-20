@@ -323,6 +323,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'crab-game':
+					curStage = 'bg';
 				default:
 					curStage = 'stage';
 			}
@@ -356,6 +358,11 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
+			case 'bg': //Week 1
+				var bg:BGSprite = new BGSprite('nonsensebgreal', -200, 50, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 1.15));
+				add(bg);
+
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
 				add(bg);
