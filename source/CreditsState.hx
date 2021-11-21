@@ -64,6 +64,9 @@ class CreditsState extends MusicBeatState
 		
 		#end
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
+			['gamers'],
+			['CrystalSlime',		'crystal',			'did everything',									'https://www.youtube.com/channel/UCT_wYKD4twxoYOZt2ggXHlw',	'0xFFFF007C'],
+			['NonsenseHumor',		'nonsense',			'did some poses',									'https://www.youtube.com/c/NonsenseHumorLOL',	'0xFF00FFF7'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
